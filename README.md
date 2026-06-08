@@ -199,24 +199,7 @@ streamlit run app.py
 Application URL:
 
 http://localhost:8501/
-📂 Project Structure
-├── data/
-│   └── Nassau_Candy_Dataset.csv
-│
-├── notebooks/
-│   └── EDA.ipynb
-│
-├── dashboard/
-│   └── app.py
-│
-├── reports/
-│   └── Research_Paper.pdf
-│
-├── images/
-│   └── dashboard_screenshots
-│
-├── requirements.txt
-└── README.md\
+
 
 🔮 Future Scope
 
