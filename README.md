@@ -1,5 +1,5 @@
 Product Line Profitability & Margin Performance Analysis
-Nassau Candy Distributor\\
+Nassau Candy Distributor\
 
 📌 Project Overview
 
