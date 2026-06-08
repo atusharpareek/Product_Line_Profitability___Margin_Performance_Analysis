@@ -1,5 +1,6 @@
 Product Line Profitability & Margin Performance Analysis
-Nassau Candy Distributor
+Nassau Candy Distributor\\
+
 📌 Project Overview
 
 This project focuses on analyzing product-level profitability, gross margin performance, and division-wise financial efficiency for Nassau Candy Distributor. While sales volume is often used as a primary performance indicator, it does not always reflect actual profitability. Some products generate high revenue but contribute little profit due to high manufacturing or operational costs.
