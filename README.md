@@ -1,13 +1,13 @@
 Product Line Profitability & Margin Performance Analysis
 Nassau Candy Distributor\
 
-📌 Project Overview
+📌 Project Overview\
 
 This project focuses on analyzing product-level profitability, gross margin performance, and division-wise financial efficiency for Nassau Candy Distributor. While sales volume is often used as a primary performance indicator, it does not always reflect actual profitability. Some products generate high revenue but contribute little profit due to high manufacturing or operational costs.
 
-The objective of this project is to identify the products, divisions, regions, and states that drive profitability, detect margin risks, and provide actionable recommendations for pricing, sourcing, and portfolio optimization. The project also includes an interactive Streamlit dashboard for real-time business intelligence and decision support.
+The objective of this project is to identify the products, divisions, regions, and states that drive profitability, detect margin risks, and provide actionable recommendations for pricing, sourcing, and portfolio optimization. The project also includes an interactive Streamlit dashboard for real-time business intelligence and decision support.\
 
-🎯 Problem Statement
+🎯 Problem Statement\
 
 Nassau Candy Distributor lacks visibility into:
 
@@ -16,17 +16,17 @@ Whether high-sales products are truly profitable.
 How profitability varies across divisions.
 Which products pose margin risks due to excessive costs.
 
-Without these insights, pricing decisions, promotional strategies, and product portfolio management remain reactive rather than data-driven.
+Without these insights, pricing decisions, promotional strategies, and product portfolio management remain reactive rather than data-driven.\
 
-🎯 Objectives
+🎯 Objectives\
 Analyze product-level profitability and gross margins.
 Identify high-performing and underperforming products.
 Evaluate division-wise revenue and profit contributions.
 Perform cost structure diagnostics.
 Analyze profit concentration using Pareto principles.
 Study regional and state-level sales performance.
-Build an interactive Streamlit dashboard for business users.
-📊 Dataset Description
+Build an interactive Streamlit dashboard for business users.\
+📊 Dataset Description\
 
 The dataset contains order-level transactional records including:
 
@@ -55,8 +55,9 @@ Pandas
 NumPy
 Matplotlib
 Seaborn
-Streamlit
-📈 Analytical Methodology
+Streamlit\
+
+📈 Analytical Methodology\
 1. Data Cleaning & Validation
 Removed invalid records.
 Validated Sales, Cost, and Profit values.
@@ -107,7 +108,7 @@ Cost
 Units
 Gross Profit\
 
-⚠️ Why K-Means Clustering Was Not Used
+⚠️ Why K-Means Clustering Was Not Used\
 
 Although clustering techniques such as K-Means are commonly used for customer or product segmentation, they were not implemented in this project.
 
@@ -119,9 +120,9 @@ Product categories were already predefined.
 Clear profitability patterns were observable through descriptive analytics.
 Business decisions could be directly supported using KPI-based analysis.
 
-Therefore, emphasis was placed on actionable profitability insights rather than artificial cluster generation.
+Therefore, emphasis was placed on actionable profitability insights rather than artificial cluster generation.\
 
-📊 Key Findings
+📊 Key Findings\
 Product Performance
 Wonka Bar – Scrumdiddlyumptious generated the highest gross profit.
 Wonka Bar – Triple Dazzle Caramel generated the highest sales revenue.
@@ -146,13 +147,14 @@ Sales vs Gross Profit	0.98
 Sales vs Cost	0.96
 Units vs Gross Profit	0.82\
 
-📌 Business Recommendations
+📌 Business Recommendations\
 Prioritize high-margin products for promotion and expansion.
 Reassess low-margin products despite high sales volume.
 Monitor product profitability continuously.
 Diversify revenue sources to reduce dependency on a few products.
-Expand distribution efforts in high-performing regions.
-📱 Streamlit Dashboard
+Expand distribution efforts in high-performing regions.\
+
+📱 Streamlit Dashboard\
 
 The project includes an interactive Streamlit dashboard providing:
 
@@ -201,13 +203,13 @@ Application URL:
 http://localhost:8501/
 
 
-🔮 Future Scope
+🔮 Future Scope\
 
 Future enhancements may include predictive profit forecasting, machine learning-based demand estimation, real-time ERP integration, automated margin monitoring, supply chain optimization, and advanced customer segmentation to support strategic decision-making and improve overall business profitability.
+\
+📄 Research Paper\
 
-📄 Research Paper
-
-The complete project report containing methodology, visualizations, insights, recommendations, and dashboard explanation is included in the repository.
+The complete project report containing methodology, visualizations, insights, recommendations, and dashboard explanation is included in the repository.\
 
 👨‍💻 Author
 
