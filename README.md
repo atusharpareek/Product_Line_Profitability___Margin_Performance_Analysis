@@ -105,7 +105,8 @@ Measured relationships between:
 Sales
 Cost
 Units
-Gross Profit
+Gross Profit\
+
 ⚠️ Why K-Means Clustering Was Not Used
 
 Although clustering techniques such as K-Means are commonly used for customer or product segmentation, they were not implemented in this project.
@@ -143,7 +144,8 @@ Strong positive correlations were observed:
 Variables	Correlation
 Sales vs Gross Profit	0.98
 Sales vs Cost	0.96
-Units vs Gross Profit	0.82
+Units vs Gross Profit	0.82\
+
 📌 Business Recommendations
 Prioritize high-margin products for promotion and expansion.
 Reassess low-margin products despite high sales volume.
@@ -174,7 +176,8 @@ User Controls
 Date Range Filter
 Division Filter
 Margin Threshold Slider
-Product Search
+Product Search\
+
 🚀 Run Locally
 
 Clone the repository:
@@ -213,7 +216,8 @@ http://localhost:8501/
 │   └── dashboard_screenshots
 │
 ├── requirements.txt
-└── README.md
+└── README.md\
+
 🔮 Future Scope
 
 Future enhancements may include predictive profit forecasting, machine learning-based demand estimation, real-time ERP integration, automated margin monitoring, supply chain optimization, and advanced customer segmentation to support strategic decision-making and improve overall business profitability.
