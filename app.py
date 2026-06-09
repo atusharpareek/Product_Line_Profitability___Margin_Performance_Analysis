@@ -5,7 +5,11 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import sys
+from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT))
 from src.data_cleaning import clean_data
 from src.analysis import calculate_kpis
 from src.product_analysis import product_level_analysis, advanced_classification
