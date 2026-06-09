@@ -23,7 +23,7 @@ def load_data(file_path):
 
 
 if __name__ == "__main__":
-    file_path = "data/nassau_data.csv"
+    file_path = "Nassau Candy Distributor.csv"
 
     df = load_data(file_path)
 
