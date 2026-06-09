@@ -1,16 +1,16 @@
 import pandas as pd
-from src.data_cleaning import clean_data
-from src.analysis import calculate_kpis
-from src.product_analysis import product_level_analysis
-from src.product_analysis import advanced_classification
-from src.division_analysis import division_analysis
-from src.division_analysis import classify_divisions
-from src.pareto_analysis import pareto_analysis
-from src.pareto_analysis import dependency_analysis
-from src.pareto_analysis import region_analysis
-from src.cost_analysis import cost_structure_analysis
-from src.cost_analysis import plot_cost_vs_sales
-from src.cost_analysis import recommend_actions
+from data_cleaning import clean_data
+from analysis import calculate_kpis
+from product_analysis import product_level_analysis
+from product_analysis import advanced_classification
+from division_analysis import division_analysis
+from division_analysis import classify_divisions
+from pareto_analysis import pareto_analysis
+from pareto_analysis import dependency_analysis
+from pareto_analysis import region_analysis
+from cost_analysis import cost_structure_analysis
+from cost_analysis import plot_cost_vs_sales
+from cost_analysis import recommend_actions
 
 def load_data(file_path):
     try:
