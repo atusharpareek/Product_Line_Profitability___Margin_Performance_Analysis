@@ -24,7 +24,7 @@ st.title("📊 Nassau Candy Profitability Dashboard")
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Nassau Candy Distributor.csv")
+    df = pd.read_csv("nassau_data.csv")
     df = clean_data(df)
     df = calculate_kpis(df)
     return df
